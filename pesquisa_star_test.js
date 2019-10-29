@@ -4,15 +4,15 @@ Feature('validar resultado');
 Scenario('test something', (I) => {
     I.amOnPage('/');
     I.see('https://swapi.co/api/people/1/');
-    I.fillField('code','200');
-    I.fillField('name', 'Luke Skywalker');
-    I.fillField('height', '172');
-    I.fillField('mass','77');
-    I.fillField('hair_collor','blond');
-    I.fillField('skin_color','fair');
-    I.fillField ('eye_color','blue');
-    I.fillField('birth_year', '19BBY');
-    I.fillField('gender','male');
+    I.see('200');
+    I.see('Luke Skywalker');
+    I.see('172');
+    I.see('77');
+    I.see('blond');
+    I.see('fair');
+    I.see('blue');
+    I.see('19BBY');
+    I.see('male');
 
 });
 
@@ -21,16 +21,16 @@ Feature('validar resultado');
 Scenario('test something', (I) => {
     I.amOnPage('/');
     I.see('https://swapi.co/api/planests/1/');
-    I.fillField('code','200');
-    I.fillField('name', 'Tatooine');
-    I.fillField('ratation', '23');
-    I.fillField('orbital_period','304');
-    I.fillField('diameter','10465');
-    I.fillField('climate','arid');
-    I.fillField ('gravity','1 standard');
-    I.fillField('terrain','desert');
-    I.fillField('surface_water','1');
-    I.fillField('population','200000');
+    I.see('200');
+    I.see('Tatooine');
+    I.see('23');
+    I.see('304');
+    I.see('10465');
+    I.see('arid');
+    I.see ('1 standard');
+    I.see('desert');
+    I.see('1');
+    I.see('200000');
 
 });
 
